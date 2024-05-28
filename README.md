@@ -1,6 +1,6 @@
 <h1>My Website!</h1><br>
 <p>This is a website made in next.js and it will be hosted on cloudfare pages.</p><br>
-<p>Content:</p><br>
+<p>Content:</p>
 <ul>
   <li>About me</li>
   <li>My CV</li>
