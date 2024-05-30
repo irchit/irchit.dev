@@ -25,15 +25,15 @@
     font-weight: 700;
     font-size: x-large;
     transition: all 0.5s ease-in-out;
-    color:rgb(240, 188, 255);
+    color: rgba(23,76,136,1);
 }
 
 .logo a span:hover{
-    color:rgb(31, 98, 145);
+    color:rgb(240, 188, 255);
 }
 
 .logo a p:hover>span{
-    color:rgb(96, 149, 255);
+    color:rgb(240, 188, 255);
 }
 
 .links{

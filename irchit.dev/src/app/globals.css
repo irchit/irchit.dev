@@ -9,3 +9,28 @@
 body{
   background-color: #192539;
 }
+
+line{
+  height: 10vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #050412;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color:rgb(134, 172, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color:rgb(81, 104, 154);
+}

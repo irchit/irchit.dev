@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23,76,136);
+    background: linear-gradient(180deg, rgba(23,76,136,1) 0%, rgba(23,76,136,1) 60%, rgba(44,56,53,0) 60.01%);
+    min-height: 65vh;
+    width: 100%;
+}
+
+.main h1{
+    color: azure;
+    text-shadow: -15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.projects{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 40vh;
+    background-color:rgb(134, 172, 255);
+    box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project{
+    gap: 1.25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #192539;
+    color: azure;
+    width: 30%;
+    height: 25vh;
+    padding: 3vh;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 30vh;
+    width: 10vw;
+}
+
+.image img{
+    width: 8vw;
+}
+
+.proj_content{
+    gap: 0.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.proj_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.proj_links a{
+    color:rgb(134, 172, 255);
+    transition: all 0.3s ease-in-out;
+}
+.proj_links a:hover{
+    color:rgb(249, 249, 249);
+}
+
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 15px;
+    font-weight: 700;
+    border: none;
+    background-color: #fff;
+    color:#050412;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    border-radius: 25px;
+    width: 13vw;
+}
